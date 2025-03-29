@@ -1,0 +1,111 @@
+@font-face {
+  font-family: cursed;
+  src: url("/CursedTimerUlil-Aznm.ttf");
+}
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid yellow; */
+    /* width: 575px;
+    height: 320px;  */
+}
+
+.score-board{   
+    width: 155px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+.score-num{
+    width: 117px;
+    height: 80px;
+    /* border: 1px solid yellow; */
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    display: flex;
+
+    justify-content: right;
+
+    
+}
+
+.digits{
+    font-family: cursed;
+    }
+    
+.score-digits{
+    
+    /* border : 1px solid white; */
+    width: 100px;
+    height: 100px;
+    border-top: 5px;
+}
+
+.buttons{
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    width: 45px;
+    height: 45px;
+    
+}
+
+.buttons-container{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 155px;
+    height: 45px;
+    margin-right: 9px;
+    display: flex;
+    margin-top:26px;
+    /* border: 1px solid orange; */
+    justify-content: space-around;
+}
+
+.reset-btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid orange; */
+    /* width:575px;
+    height: 50px; */
+}
+
+#reset{
+    width:120px
+}
+
+
+#timer-cont{
+    color: #F94F6D;
+    /* border:1px solid red; */
+    width: 130px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
