@@ -1,19 +1,18 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Basketball Scoreboard
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This project is a basketball scoreboard application I created during my study for the [frontend developer path course on Scrimba.com](https://scrimba.com/frontend-path-c0j) designed to track and display scores for basketball games. It provides an easy-to-use interface for managing team scores, game time, and other relevant statistics.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+![Basketball Scoreboard](./sc.png)
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Happy Coding!
+## How to Run
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run the following commands:
+   ```bash
+   npm install
+   npm start
